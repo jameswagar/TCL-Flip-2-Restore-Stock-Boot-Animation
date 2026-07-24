@@ -98,6 +98,10 @@ The ZIP entries in the Android animation are stored without compression, as requ
 
 The source animation was captured read-only from the 4058G, visually inspected frame-by-frame, and structurally verified. The module installed successfully on the target 4058L and staged the exact verified payload. Post-reboot ADB verification was pending because the phone requested USB-debugging authorization again; visually confirm the animation and re-authorize ADB before relying on command-line health checks.
 
+## Support and contributions
+
+This repository is published as-is. I am not offering support through GitHub Issues and I am not accepting pull requests. If you want to modify or extend the project, fork it and maintain your own version.
+
 ## License And Asset Notice
 
 Scripts and documentation are MIT-licensed. The TCL boot-animation artwork is an extracted firmware asset and remains the property of its respective rights holder; see [NOTICE](NOTICE).
