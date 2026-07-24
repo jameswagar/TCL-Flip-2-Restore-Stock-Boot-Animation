@@ -1,0 +1,7 @@
+id=tcl_unbranded_bootanimation
+name=TCL Unbranded Boot Animation
+version=1.0.0
+versionCode=1
+author=James Wagar
+summary=Replaces the US Cellular Android boot animation with the stock unbranded TCL 4058G animation.
+description=Reversible Magisk overlay for /product/media/bootanimation.zip. Disable or remove this module to restore the untouched firmware animation.

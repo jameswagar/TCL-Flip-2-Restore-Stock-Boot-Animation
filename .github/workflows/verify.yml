@@ -1,0 +1,13 @@
+name: Verify Module
+
+on:
+  push:
+  pull_request:
+
+jobs:
+  verify:
+    runs-on: macos-latest
+    steps:
+      - uses: actions/checkout@v4
+      - name: Verify checksums and ZIP integrity
+        run: ./scripts/verify.sh
